@@ -1,6 +1,5 @@
-SOURCE="http://s3.mongobooster.com/download/releasesv6/nosqlbooster4mongo-6.0.3.AppImage"
-OUTPUT="NoSQLBooster4Mongo.AppImage"
-
+SOURCE="https://download.kde.org/unstable/kdenlive/16.12/linux/Kdenlive-16.12-rc-x86_64.AppImage"
+OUTPUT="KDEnlive.AppImage"
 
 all:
 	echo "Building: $(OUTPUT)"
