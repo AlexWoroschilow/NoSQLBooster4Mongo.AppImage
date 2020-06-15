@@ -1,0 +1,1 @@
+# NoSQLBooster4Mongo.AppImage
