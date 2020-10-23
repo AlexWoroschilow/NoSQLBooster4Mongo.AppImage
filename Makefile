@@ -1,4 +1,4 @@
-SOURCE="http://s3.mongobooster.com/download/releasesv6/nosqlbooster4mongo-6.0.4.AppImage"
+SOURCE="https://s3.mongobooster.com/download/releasesv6/nosqlbooster4mongo-6.1.8.AppImage"
 OUTPUT="NoSQLBooster4Mongo.AppImage"
 
 all:
