@@ -15,7 +15,7 @@ PWD:=$(shell pwd)
 all: clean
 	mkdir --parents $(PWD)/build
 
-	wget --output-document=$(PWD)/build/NoSQLBooster4Mongo.AppImage --continue https://s3.mongobooster.com/download/releasesv6/nosqlbooster4mongo-6.2.3.AppImage
+	wget --output-document=$(PWD)/build/NoSQLBooster4Mongo.AppImage https://s3.mongobooster.com/download/releasesv6/nosqlbooster4mongo-6.2.5.AppImage
 	7z x $(PWD)/build/NoSQLBooster4Mongo.AppImage -o$(PWD)/build/squashfs-root
 
 
