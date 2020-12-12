@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=NoSQLBooster for MongoDB
+Exec=AppRun
+Terminal=false
+Type=Application
+Icon=nosqlbooster4mongo
+StartupWMClass=NoSQLBooster for MongoDB
+X-AppImage-Version=6.2.5
+Comment=Essential Admin GUI for MongoDB
+Categories=Development;
