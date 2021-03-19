@@ -32,7 +32,7 @@ all: clean
 	echo '        exec $${APPDIR}/nosqlbooster/nosqlbooster4mongo "$${@}"' 				>> $(PWD)/build/Boilerplate.AppDir/AppRun
 	echo '    fi' 																		>> $(PWD)/build/Boilerplate.AppDir/AppRun
 
-	wget --output-document=$(PWD)/build/NoSQLBooster4Mongo.AppImage https://s3.mongobooster.com/download/releasesv6/nosqlbooster4mongo-6.2.5.AppImage
+	wget --output-document=$(PWD)/build/NoSQLBooster4Mongo.AppImage https://s3.mongobooster.com/download/releasesv6/nosqlbooster4mongo-6.2.11.AppImage
 	7z x $(PWD)/build/NoSQLBooster4Mongo.AppImage -o$(PWD)/build/squashfs-root
 
 	cp --force --recursive $(PWD)/build/squashfs-root/usr/share/* 					$(PWD)/build/Boilerplate.AppDir/share			| true
